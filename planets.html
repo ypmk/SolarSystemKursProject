@@ -9,17 +9,25 @@
 	</head>
 	<body>
 
-		<div class="wrapper">
-			<header class="header">
-				<div class="header__logo"><img src="img/logo.png"></div>
-				<nav class="header__menu">
-					<ul class="header__list">
-						<li><a href="index.html" class="header__link"><p>Главная</p></a></li>
-						<li><a href="planets.html" class="header__link"><p>Планеты</p></a></li>
-						<li><a href="test.html" class="header__link"><p>Квиз</p></a></li>
-					</ul>
-				</nav>
-			</header>
+		<nav class="navbar">
+            <div class="container">
+                <div class="navbar__wrap">
+                    <div class="hamb">
+                        <div class="hamb__field" id="hamb">
+                            <span class="bar"></span> <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                    <div class="header__logo"><img src="img/logo.png"></div>
+                    <ul class="menu" id="menu">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="planets.html">Планеты</a></li>
+                        <li><a href="test.html">Квиз</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="popup" id="popup"></div>
 			
 			<main>
                 <div class="container">
@@ -131,4 +139,5 @@
 			</footer>
 		</div>
 	</body>
+    <script src="js/burger_menu.js"></script>
 </html>
