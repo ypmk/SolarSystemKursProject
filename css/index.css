@@ -572,6 +572,14 @@ footer .container .sec
     top: -8px;
     border-radius: 40px;
 }
+@media (max-width:700px) {
+    .earth-circle{
+        display: none;
+    }
+    .earth-inner{
+        display: none;
+    }
+}
 .earth-inner
 {
     height: 10px;
