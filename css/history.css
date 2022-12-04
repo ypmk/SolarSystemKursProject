@@ -1,0 +1,180 @@
+@font-face{
+    font-family: 'MultiroundPro';
+    src: url('../fonts/MultiroundPro.otf');
+
+}
+
+.glass-night-cards 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    font-family:'MultiroundPro';
+    position: relative;
+    top: 50px;
+}
+
+.glass-night-cards .container2
+{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.glass-night-cards .container2 .card2
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #0c002b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.glass-night-cards .container2:hover .card2
+{
+    opacity: 0.2;
+}
+
+.glass-night-cards .container2 .card2:hover
+{
+    opacity: 1;
+}
+
+.glass-night-cards .container2 .card2::before
+{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    width: 50%;
+    background: rgba(255,255,255,0.1);
+    pointer-events: none;
+}
+
+.glass-night-cards .container2 .card2 .content2 h2
+{
+    position: absolute;
+    right: 30px;
+    font-size: 4em;
+    font-weight: 800;
+    color: #1779ff;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+    margin-left: 5px;
+}
+
+.glass-night-cards .container2 .card2 .content2 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass-night-cards .container2 .card2:hover .content2 h2
+{
+    opacity: 1;
+    transform: translateY(-120px);
+}
+
+.glass-night-cards .container2 .card2 .content2 h3
+{
+    position: relative;
+    font-size: 1.5em;
+    color: #fff;
+    z-index: 2;
+    opacity: 0.7;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.glass-night-cards .container2 .card2 .content2 p
+{
+    position: relative;
+    font-size: 1em;
+    color: #fff;
+    z-index: 2;
+    opacity: 0.7;
+    transition: 0.5s;
+    margin-left: 5px;
+}
+
+.glass-night-cards .container2 .card2:hover .content2 h3,
+.glass-night-cards .container2 .card2:hover .content2 p
+{
+    opacity: 1;
+}
+
+.glass-night-cards .container2 .card2 .content2 a
+{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background: #fff;
+    color: #0c002b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.glass-night-cards .container2 .card2 span
+{
+    transition: 0.5;
+}
+
+.glass-night-cards .container2 .card2:hover span
+{
+    opacity: 1;
+}
+
+
+.i_1 img
+{
+    float: left;
+    margin: 20px;
+    width: 30vw;
+    border-radius: 30px;
+    }
+@media (max-width:400px) {
+    .i_1 img{
+        width: 80vw;
+        float: none;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .i_1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+}
+@media (max-width:800px) and (min-width:401px){
+    .i_1 img{
+        width: 80vw;
+        float: none;
+    }
+    .i_1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+}
+@media (max-width:1000px) and (min-width:801px) {
+    .i_1 img{
+        width: 50vw;
+    }
+}
