@@ -123,3 +123,7 @@ const quizData = [{
   `
   }
   loadQuestion(index);
+
+
+
+  
