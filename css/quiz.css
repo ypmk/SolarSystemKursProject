@@ -1,0 +1,141 @@
+@font-face{
+    font-family: 'MultiroundPro';
+    src: url('../fonts/MultiroundPro.otf');
+}
+
+.quiz {
+    position: relative;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    padding-bottom: 20vh;
+    box-sizing: border-box;
+    font-family: 'MultiroundPro';
+}
+@media (max-width:900px) {
+    .quiz{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width:900px) {
+    .quiz{
+        width: 80vw;
+    }
+}
+
+.quiz .container {
+    width: 35rem;
+    height: 120%;
+    box-shadow: 0px 0px 5px grey;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.quiz .col {
+    text-align: justify;
+    padding: 15px;
+    width: 95%;
+}
+
+.quiz #submit {
+    width: 100%;
+    background-color: rgb(47, 8, 73);
+    transition: 0.5s;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.quiz #submit:hover {
+    background-color: rgb(34, 6, 53);
+}
+
+.quiz .box {
+    box-shadow: 0px -1px 1px grey;
+    width: 100%;
+    background-color:rgb(207, 195, 215);
+}
+
+footer
+{
+    width: 100vw;
+}
+
+.w-100
+{
+    background-color: #fff;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(47, 8, 73);
+    font-size: 24px;
+    border-radius: 15px;
+}
+.ww
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#congrats
+{
+    height: 20vh;
+    width: auto;
+}
+@media (max-width:320px) {
+    #congrats
+    {
+        width: 100px;
+        height: auto;
+    }
+}
+.text
+{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.start
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.start .text_start
+{
+    position: relative;
+    color: black;
+    font-size: 1.5em;
+    color: #fff;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.quiz #start {
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'MultiroundPro';
+    font-size: 1.5em;
+    margin-top: 30px;
+}

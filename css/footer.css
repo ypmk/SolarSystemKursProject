@@ -7,11 +7,15 @@
 footer
 {
     position: relative;
-    width: 100vw;
+    width: 98vw;
     height: auto;
     padding: 0;
     background: #111;
     padding-top: 50px;
+}
+footer .sec
+{
+    padding: 20px;
 }
 footer .container
 {
